@@ -15,6 +15,8 @@
     {
         Tags { "Queue" = "Transparent" }
 
+        Blend SrcAlpha OneMinusSrcAlpha 
+
         Pass
         {
             CGPROGRAM
